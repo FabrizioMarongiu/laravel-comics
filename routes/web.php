@@ -19,10 +19,15 @@ Route::get('/', function () {
 
 // COMICS
 Route::get('/comics', function () {
-    return 'Comics';
+    
+    $comics = config('dc-database') ;
+// dump($comics);
+
+
+    return view('comics', [ 'cards' => $comics]);
 })->name('comics');
 
 // NEWS
 Route::get('/news', function () {
-    return 'News';
+    return view('news');
 })->name('news');

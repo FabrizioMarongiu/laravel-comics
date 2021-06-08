@@ -1,1 +1,3 @@
-<footer>footer</footer>
+<footer>
+    <div class="blue-line"></div>
+</footer>

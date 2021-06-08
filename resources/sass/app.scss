@@ -2,8 +2,11 @@
         APP MAIN STYLE
 *****************************************************************/
 
-//VARIABILI
+//GENERAL
 @import 'partials/vars';
 @import 'partials/default';
 @import 'partials/utilities';
+
+// COMPONENTS
 @import 'partials/header';
+@import 'partials/footer';
