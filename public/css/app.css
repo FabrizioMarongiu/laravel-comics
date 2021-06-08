@@ -1,0 +1,57 @@
+/****************************************************************
+        APP MAIN STYLE
+*****************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0182f9;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+}
+
+.header-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-box img {
+  width: 70px;
+}
+.header-box .main-nav {
+  margin: 0 60px;
+  width: 100%;
+  height: 100px;
+}
+.header-box .main-nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+.header-box .main-nav ul li {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+.header-box .main-nav ul li a {
+  line-height: 100px;
+  display: block;
+  text-decoration: none;
+  color: #505451;
+  border-bottom: 2px solid transparent;
+  height: 100%;
+}
+.header-box .main-nav ul li a:hover, .header-box .main-nav ul li a.active {
+  color: #0182f9;
+  border-bottom: 2px solid #0182f9;
+}
